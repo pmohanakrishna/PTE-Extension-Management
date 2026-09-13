@@ -1,0 +1,22 @@
+{
+  "id": "b7a1e6f4-3c52-4d91-9f0a-2e8d5c41b7aa",
+  "name": "PTE Extension Management",
+  "publisher": "Mohana",
+  "version": "1.0.0.0",
+  "brief": "Upload and schedule per-tenant extensions from inside Business Central using the Admin Center API.",
+  "description": "Replaces the deprecated Extension Management upload flow by calling the Business Central Admin Center API from AL.",
+  "platform": "26.0.0.0",
+  "application": "26.0.0.0",
+  "runtime": "15.0",
+  "idRanges": [
+    {
+      "from": 66650,
+      "to": 66699
+    }
+  ],
+  "dependencies": [],
+  "features": [
+    "NoImplicitWith"
+  ],
+  "target": "Cloud"
+}

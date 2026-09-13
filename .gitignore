@@ -1,0 +1,10 @@
+# AL symbols and build output
+.alpackages/
+.altemplates/
+.alcache/
+.snapshots/
+*.app
+
+# VS Code
+.vscode/
+docs/**/*.md

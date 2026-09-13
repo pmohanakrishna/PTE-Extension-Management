@@ -149,5 +149,3 @@ The admin center `applicationFamily` route parameter is fixed to `BusinessCentra
 - Tokens are acquired per operation rather than cached. Deployments are infrequent enough that this is not worth the complexity, but add caching if you wrap this in a job queue.
 - No dependency resolution beyond the API's own. If a dependency is missing and **Install needed dependencies** is off, the 400 response lists what is required and lands in the deploy log.
 - Uploading a newer version of this app restarts it mid-operation. Reopen the page afterwards.
-#   P T E - E x t e n s i o n - M a n a g e m e n t  
- 
